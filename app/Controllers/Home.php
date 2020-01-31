@@ -7,6 +7,11 @@ class Home extends BaseController
 		return view('welcome_message');
 	}
 
+	public function testPage()
+	{
+		return view('test_page');
+	}
+
 	//--------------------------------------------------------------------
 
 }
