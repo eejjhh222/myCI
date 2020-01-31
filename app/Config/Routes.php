@@ -75,6 +75,9 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->add('/testPage', 'Home::testPage');
 
+$routes->add('/userAdd', 'Home::userAdd');
+
+
 /**
  * --------------------------------------------------------------------
  * Additional Routing
